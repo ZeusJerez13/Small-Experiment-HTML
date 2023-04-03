@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Basic survey form for future reference</p>
+    <form id="survey-form">
+        <fieldset>
+            <label for="name" id="name-label">Name:</label>
+            <input id="name" type="text" placeholder="Enter your name here" required>
+        </fieldset>
+        <fieldset>
+            <label for="email" id="email-label">Email:</label>
+            <input id="email" type="email" placeholder="Enter your email here" required>
+        </fieldset>
+        <fieldset>
+            <label for="number" id="number-label">Age:</label>
+            <input id="number" type="number" max="110" min="12" placeholder="Age">
+        </fieldset>
+        <fieldset>
+            <label for="1">Which of these letters do you like the most?</label>
+            <select name="1" id="dropdown">
+                <option value=""></option>
+                <option value="b">b</option>
+                <option value="c">c</option>
+                <option value="d">d</option>
+                <option value="e">e</option>
+                <option value="f">f</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <label for="">Which country would you like to visit first?</label>
+                <input type="radio" value="India">India
+                <input type="radio" value="Venezuela">Venezuela
+                <input type="radio" value="">
+        </fieldset>
+
+    </form>
+</body>
+
+</html>
